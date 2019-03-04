@@ -169,7 +169,8 @@ h4 {
 p{
 	font-family: 'Lora', serif;
 	font-size: 0.875em;
-	margin: 0;
+	margin: 10px 0;
+	line-height: 1.5em;
 }
 
 img {
@@ -458,13 +459,28 @@ footer .copyright {
     /*************** Tablet Styles *********************/
 	
 	.content-wrapper {
-		max-width: 900px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: flex-start;
+		max-width: 800px;
 	}
 	
 	/*************** Global Styles *********************/
 	
+	h1{
+		width: 100%;
+		text-align: center;
+	}
+	
 	h2 {
 	letter-spacing: 0.25em;
+	}
+	
+	h3 {
+		width: 100%;
+		text-align: right;
+		margin-bottom: 20px;
 	}
 	
 	footer .social {
@@ -482,14 +498,14 @@ footer .copyright {
 	/******************** Homepage *********************/
 	
 	.about-me {
-	width: 60%;
-	margin: 20px 10px 50px 0;
+	width: 55%;
+	margin: 20px 0 50px 0;
 	padding:0;
 	}
 
 	.my-photos {
-	width: 45%;
-	margin: 20px 0;
+	width: 40%;
+	margin: 40px 0 20px 0;
 	padding: 0;
 	}
 	

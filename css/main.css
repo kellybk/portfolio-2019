@@ -130,7 +130,7 @@ a{
 
 h2 {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 1.5;
+	font-size: 1.5em;
 	text-align: center;
 	font-weight: 300;
 	color: #fff;
@@ -482,6 +482,85 @@ footer .copyright {
 		text-align: right;
 		margin-bottom: 20px;
 	}
+	
+	footer .social {
+	width: 40%;
+	}
+	
+	footer .copyright {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 60%;
+	margin-top: 30px;
+}
+	
+	/******************** Homepage *********************/
+	
+	.about-me {
+	width: 55%;
+	margin: 20px 0 50px 0;
+	padding:0;
+	}
+
+	.my-photos {
+	width: 40%;
+	margin: 40px 0 20px 0;
+	padding: 0;
+	}
+	
+	
+	
+}
+
+
+@media only screen and (min-width: 1200px) {
+    /*************** Desktop Styles *********************/
+	
+	.content-wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: flex-start;
+		max-width: 1200px;
+	}
+	
+	/*************** Global Styles *********************/
+	
+	h1{
+		width: 1000%;
+		text-align: center;
+		font-size: 2.25em;
+		letter-spacing: 0.05em;
+	}
+	
+	h2 {
+		font-size: 1.75em;
+		letter-spacing: 0.25em;
+	}
+	
+	h3 {
+		width: 100%;
+		text-align: right;
+		margin-bottom: 20px;
+		padding-right: 5em;
+	}
+	
+	h4 {
+		font-size: 1.25em;
+	}
+
+	p {
+		font-size: 1em;
+		margin: 10px 0;
+		line-height: 1.5em;
+	}
+	
+	header nav ul li {
+	margin: 0;
+	font-size: 1.15em;
+	letter-spacing: 0.15em;
+}
 	
 	footer .social {
 	width: 40%;

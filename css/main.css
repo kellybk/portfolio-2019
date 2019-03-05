@@ -562,28 +562,17 @@ footer .copyright {
 	letter-spacing: 0.15em;
 }
 	
-	footer .social {
-	width: 40%;
-	}
-	
-	footer .copyright {
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
-	width: 60%;
-	margin-top: 30px;
-}
 	
 	/******************** Homepage *********************/
 	
 	.about-me {
-	width: 55%;
+	width: 60%;
 	margin: 20px 0 50px 0;
 	padding:0;
 	}
 
 	.my-photos {
-	width: 40%;
+	width: 35%;
 	margin: 40px 0 20px 0;
 	padding: 0;
 	}

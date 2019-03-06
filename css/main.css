@@ -174,11 +174,19 @@ h5 {
 	margin: 15px 0 5px 0;
 }
 
-p{
+p {
 	font-family: 'Lora', serif;
 	font-size: 0.875em;
 	margin: 10px 0;
 	line-height: 1.5em;
+}
+
+p span{
+	font-family: 'Lora', serif;
+	font-size: 0.875em;
+	margin: 10px 0;
+	line-height: 1.5em;
+	font-style: italic;
 }
 
 
@@ -398,6 +406,53 @@ footer .copyright {
 }
 
 
+/********************** Contact - Mobile Styles *********************/
+
+
+.contact {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	width: 100%;
+}
+
+.contact-me {
+	width: 100%;
+	margin: 20px 0 50px 0;
+}
+
+.contact-buttons {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-flow: row wrap;
+	width: 100%;
+}
+
+.contact-buttons p {
+	background-color: #2ec1e6;
+	font-size: 3.5em;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	box-shadow: 0px 0px 15px #999;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact-buttons p a:hover {
+	background-color: #55c199;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
 
 
@@ -526,7 +581,7 @@ footer .copyright {
 	align-items: center;
 	width: 60%;
 	margin-top: 30px;
-}
+	}
 	
 	/******************** Homepage *********************/
 	
@@ -542,6 +597,19 @@ footer .copyright {
 	padding: 0;
 	}
 	
+	
+	/******************* Contact ***********************/
+	
+	.contact-buttons p {
+	font-size: 5em;
+	width: 150px;
+	height: 150px;
+	}
+
+	.contact-buttons p a:hover {
+	width: 150px;
+	height: 150px;
+	}
 	
 	
 }
@@ -584,7 +652,7 @@ footer .copyright {
 	}
 	
 	h5 {
-	font-size: 1em;
+		font-size: 1em;
 	}
 
 	p {
@@ -593,11 +661,15 @@ footer .copyright {
 		line-height: 1.5em;
 	}
 	
+	p span{
+	font-size: 1em;
+	}
+	
 	header nav ul li {
 	margin: 0;
 	font-size: 1.15em;
 	letter-spacing: 0.15em;
-}
+	}
 	
 	
 	/******************** Homepage *********************/
@@ -613,6 +685,20 @@ footer .copyright {
 	margin: 40px 0 20px 0;
 	padding: 0;
 	}
+	
+	/******************** Contact **********************/
+	
+	.contact-buttons p {
+	font-size: 6em;
+	width: 200px;
+	height: 200px;
+	}
+
+	.contact-buttons p a:hover {
+	width: 200px;
+	height: 200px;
+	}
+	
 	
 	
 	

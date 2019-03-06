@@ -454,6 +454,21 @@ footer .copyright {
 	align-items: center;
 }
 
+/********************** Portfolio - Mobile Styles *********************/
+
+
+.portfolio {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	width: 100%;
+}
+
+.my-portfolio {
+	width: 100%;
+	margin: 20px 0 50px 0;
+}
 
 
 
